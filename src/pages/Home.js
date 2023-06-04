@@ -3,6 +3,10 @@ import { FaLinkedinIn } from "react-icons/fa";
 import {AiOutlineGithub} from 'react-icons/ai';
 
 export default function Home() {
+
+  const size = {
+    width: "30px"
+  }
   return (
 
     <div className="intro">
@@ -21,12 +25,12 @@ export default function Home() {
         <div className="social-icons">
             <span>
               <a href="https://www.linkedin.com/in/tamara-saadeh-83483818b/" target="_blank">
-                <FaLinkedinIn />
+                <span style={size}><FaLinkedinIn /></span>
               </a>
             </span>
             <span>
               <a href="https://github.com/tamara-703" target="_blank">
-              <AiOutlineGithub />
+              <span style={size}><AiOutlineGithub /></span>
               </a>
             </span>
             </div>

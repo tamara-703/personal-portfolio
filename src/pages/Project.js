@@ -17,11 +17,8 @@ export default function Projects() {
   const paragraph = {
     padding: "20px"
   }
-  const image = {
-    padding: "10px"
-  }
+
   const backgroundColor = {
-    backgroundColor: "#be123c",
     borderRadius: "10px"
   }
 
@@ -32,7 +29,7 @@ export default function Projects() {
           <img
             src={LibraryProject}
             alt="library-project-homepage"
-            style={image}
+            classname='zoom-in-out-box'
           ></img>
           <p style={paragraph}>
             This project emulates a simple library website that allows users to
@@ -62,7 +59,7 @@ export default function Projects() {
         </div>
 
         <div style={backgroundColor}>
-          <img src={TodoProject} alt="todo-list-project" style={image}></img>
+          <img src={TodoProject} alt="todo-list-project" classname='zoom-in-out-box'></img>
           <p style={paragraph}>
             This project emulates a simple ToDo that allows the user to<br/>add/remove items from their list of todos
           </p>
@@ -89,7 +86,7 @@ export default function Projects() {
         </div>
 
       <div style={backgroundColor}>
-          <img src={HangmanProject} alt="hangman-project" style={image}></img>
+          <img src={HangmanProject} alt="hangman-project" classname='zoom-in-out-box'></img>
           <p style={paragraph}>
             This project recreate the classic hangman game in a simple webpage
             environment.<br/>It provides the user with an interface that allows them
@@ -118,7 +115,7 @@ export default function Projects() {
         </div>
 
       <div style={backgroundColor}>
-        <img src={StudentRegistry} alt="student-registry-project" style={image}></img>
+        <img src={StudentRegistry} alt="student-registry-project" classname='zoom-in-out-box'></img>
         <p style={paragraph}>
           This project is a simple example of a CRUD application that emitate<br/>an admin Student Registry that taps into a
           database using open source<br/>NoSQL environments such as MongoDB. Front end was developed using<br/>React JS, Node JS and CSS Tailwind while
