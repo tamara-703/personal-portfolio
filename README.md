@@ -1,7 +1,7 @@
 # Personal Portfolio
 This is a personal portfolio developed with React JS
 
-You can view the website [here](https://tamara-703.github.io/personal-portfolio/)
+You can view the website [here](https://tamara-personal-portfolio.onrender.com/)
 
 ## Technologies used
 ```
@@ -13,7 +13,7 @@ React-dom
 ```
 ### Environments
 ```
-Github pages
+Render
 ```
 
 ### Manual installation
