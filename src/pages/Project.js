@@ -15,7 +15,8 @@ export default function Projects() {
     padding: "20px",
   }
   const paragraph = {
-    padding: "20px"
+    padding: "20px",
+    marginTop: "30px"
   }
 
   const backgroundColor = {
