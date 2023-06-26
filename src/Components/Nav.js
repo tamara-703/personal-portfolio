@@ -22,7 +22,7 @@ export default function Nav()
     </div>
     <div>
 
-      <a href="https://drive.google.com/file/d/1p8X-m6yNPEADFc15xhM2H6SkeHh8qIqk/view?usp=sharing" target='_blank' className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download Resume</a>
+      <a href="https://drive.google.com/file/d/1YlBA8KXmPkkCFkBPKNEycIGNBeEXZakz/view?usp=sharing" target='_blank' className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download Resume</a>
     </div>
   </div>
 </nav>
