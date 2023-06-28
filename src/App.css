@@ -7,6 +7,8 @@
 
 body {
   background-color: #3b0764;
+  height: 100%;
+  width: 100%;
 }
 
 .MY {
@@ -14,6 +16,7 @@ body {
 }
 
 .intro {
+  width: 100%;
   margin-top: 200px;
   margin-left: 200px;
 }
@@ -61,6 +64,7 @@ body {
 }
 
 .projects {
+  width: 100%;
     padding: 40px;
     color: white;
     font-family: "Ubuntu", sans-serif;
@@ -110,4 +114,24 @@ body {
 .about img {
   border: solid thick black;
   box-shadow: 10px 5px 5px white;
+}
+
+/* media query widths used: < 600px, 601px, 768px, 992px, 1200px */
+
+@media only screen and (max-width: 600px) and (orientation: landscape){
+
+  .wrapper-main {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1200px){
+
+  .wrapper-main {
+    width: 100%;
+    /* padding: 100px 0;
+    margin: 0 auto; */
+  }
+
 }
